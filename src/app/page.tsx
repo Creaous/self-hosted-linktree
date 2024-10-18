@@ -9,7 +9,7 @@ export default function Home() {
 			<Avatar className="w-[96px] h-[96px]">
 				<AvatarImage
 					src={info.avatar}
-					alt="Mitchell's avatar"
+					alt={`${info.name}'s avatar`}
 					height={96}
 					width={16960}
 				/>

@@ -11,7 +11,7 @@ export default function Home() {
 					src={info.avatar}
 					alt={`${info.name}'s avatar`}
 					height={96}
-					width={16960}
+					width={96}
 				/>
 				<AvatarFallback>Loading...</AvatarFallback>
 			</Avatar>

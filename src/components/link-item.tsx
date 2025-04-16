@@ -20,7 +20,7 @@ export function LinkItem({ link }: { link: Link }) {
       className={link.className}
     >
       <Link href={link.url}>
-        {link.icon && <link.icon className="mr-2 h-4 w-4" />}
+        {link.icon && <link.icon className="h-4 w-4" />}
         {link.title}
       </Link>
     </Button>

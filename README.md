@@ -1,7 +1,8 @@
 # Self hosted linktr.ee
 
-This project tries to replicate the basic functionality of linktr.ee, which is a
-static page for links.
+*Updated to the new Next.js v15 and TailwindCSS v4.*
+
+This project tries to replicate the basic functionality of linktr.ee, which is a static page for links.
 
 ## Customisation
 

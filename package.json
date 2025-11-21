@@ -1,5 +1,7 @@
 {
-  "name": "self-hosted-linktree-svelte",
+  "name": "self-hosted-linktree",
+  "license": "MIT",
+  "author": "Creaous",
   "private": true,
   "version": "0.0.1",
   "type": "module",

@@ -24,6 +24,18 @@ We use pnpm but you should be able to use any package manager.
 
 Once you're ready to deploy, you can follow these steps.
 
+### Standard
+
 1. Install dependencies: `pnpm i`
 2. Start a development server: `pnpm build`
 3. Ensure everything looks good: `pnpm preview`
+
+### Cloudflare Pages
+
+1. Install the adapter: `pnpm i -D @sveltejs/adapter-cloudflare`
+2. Edit `svelte.config.js`:
+    ```diff
+    - import adapter from '@sveltejs/adapter-auto';
+    + import adapter from '@sveltejs/adapter-cloudflare';
+    ```
+3. Deploy to Cloudflare pages!

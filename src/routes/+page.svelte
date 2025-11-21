@@ -25,7 +25,6 @@
   <!-- Links-->
   <div class="flex flex-col items-center gap-2">
     {#each links as link (link.name)}
-      {@const Icon = link.icon}
       {@const color: ButtonColor = link.button?.color || 'neutral'}
       {@const style: ButtonStyle | undefined = link.button?.style}
       {@const size: ButtonSize | undefined = link.button?.size}
@@ -33,7 +32,7 @@
         <button
           class={`btn btn-${color} ${style && `btn-${style}`} ${size && `btn-${size}`} w-full`}
         >
-          <Icon />
+          {@html link.icon}
           {link.name}
         </button>
       </a>

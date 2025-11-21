@@ -5,7 +5,7 @@ import { config as _config } from '../values';
 export interface Link {
   name: string;
   url: string;
-  icon: Component<IconProps, {}, ''>;
+  icon: string;
   button?: {
     color?: ButtonColor;
     style?: ButtonStyle;

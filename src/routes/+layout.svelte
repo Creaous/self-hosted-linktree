@@ -7,6 +7,12 @@
 
 <svelte:head>
   <title>{possessiveUsername} Links</title>
+  <meta
+    name="description"
+    content={`${possessiveUsername} profile of links!`}
+  />
+  <meta name="author" content={username} />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="/favicon.png" />
 </svelte:head>
 
